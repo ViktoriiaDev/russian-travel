@@ -1,0 +1,23 @@
+.header__land-link {
+  color: #FFFFFF;
+  display: block;
+  margin-left: 18px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.header__land-link:first-of-type {
+  margin-left: auto;
+}
+
+.header__land-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__land-link {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
