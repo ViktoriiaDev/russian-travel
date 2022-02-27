@@ -1,5 +1,4 @@
 .header__land-link {
-  color: #FFFFFF;
   display: block;
   margin-left: 18px;
   text-decoration: none;
@@ -13,6 +12,10 @@
 
 .header__land-link:hover {
   opacity: .8;
+}
+
+.header__land-link:visited {
+   color: #ffffff;
 }
 
 @media screen and (max-width: 1023px) {
