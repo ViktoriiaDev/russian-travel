@@ -1,0 +1,14 @@
+.place__link {
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.place__link:visited {
+  color: #ffffff;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
